@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>PC Control GUI</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>PC Control GUI</h1>
+
+        <p style="font-size: 2rem;" id="hostStatus">Current Host Status: <span style="color:#202020">Not Checked...</span></p>
+
+        <button id="start-pc" onclick="clickButton()">Start PC</button><br>
+        <button id="reload" onclick="poll()">Repoll</button>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

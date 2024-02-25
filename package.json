@@ -1,0 +1,18 @@
+{
+  "name": "wakeonremote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exitcrash node server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4",
+    "wol": "^1.0.7"
+  }
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Righteous;
+    src: url("/public/Righteous-Regular.ttf");
+}
+
+body
+{
+    font-family: Righteous;
+
+    background-color: #000;
+    color: white;
+
+    font-size: 5rem;
+}
+
+button
+{
+    margin: 0.5rem;
+    padding: 1rem;
+
+    font-family: inherit;
+
+    background-color: #373737;
+    border: 0.3rem solid #555555;
+    color: inherit;
+
+    font-size: 3rem;
+
+    transition: all 0.3s;
+}
+button:hover
+{
+    border: 0.3rem solid #FFFFFF;
+}
